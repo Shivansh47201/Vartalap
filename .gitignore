@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Build output
+dist/
+build/
+.next/
+out/
+.cache/
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Coverage / testing
+coverage/
+*.lcov
+
+# Misc
+*.tsbuildinfo
+uploads/
